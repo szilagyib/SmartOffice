@@ -1,0 +1,16 @@
+MAS intelligentOffice {
+
+	infrastructure: Centralised
+	
+	environment: intelligentOffice.OfficeEnv
+
+	agents:
+		agentUser;
+		agentTemperature;
+		agentLighting;
+		agentWindow;
+		agentSensor;
+
+	aslSourcePath:
+		"src/asl";
+}
